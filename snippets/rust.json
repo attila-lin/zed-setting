@@ -1,0 +1,11 @@
+{
+  "Add thiserror macro": {
+    "prefix": "thiserror",
+    "body": [
+      "#[allow(missing_docs)]",
+      "#[derive(Debug, thiserror::Error)]",
+      "pub enum ${1:Name}Error {}"
+    ],
+    "description": "Add thiserror to the current file"
+  }
+}
