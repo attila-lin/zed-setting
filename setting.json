@@ -26,6 +26,7 @@
   "theme": "Dracula",
   "ui_font_size": 17,
   "buffer_font_size": 14,
+  "cursor_blink": false,
   // Finder model width
   "file_finder": {
     "modal_width": "medium"
