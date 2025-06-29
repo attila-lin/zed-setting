@@ -183,5 +183,11 @@
   },
   "chat_panel": {
     "dock": "left"
+  },
+  // Minimap settings
+  "minimap": {
+    "show": "always",
+    "display_in": "active_editor",
+    "max_width_columns": 50
   }
 }
