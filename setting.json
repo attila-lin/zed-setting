@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "show_edit_predictions": false,
   "edit_predictions": {
     "mode": "eager",
     "copilot": {
@@ -23,21 +24,16 @@
     "edit_prediction_provider": "copilot"
   },
   "base_keymap": "VSCode",
-  "theme": "Dracula",
+  "theme": "Ayu Dark",
   "ui_font_size": 17,
   "buffer_font_size": 14,
   "cursor_blink": false,
   // Finder model width
-  "file_finder": {
-    "modal_width": "medium"
-  },
   // NOTE: Change the font family to your preference
-  "buffer_font_family": "Maple Mono NF",
+  // "buffer_font_family": "Maple Mono NF",
+  "buffer_font_family": "Google Sans Code",
   // Vim mode settings
   "vim_mode": true,
-  "vim": {
-    "enable_vim_sneak": true
-  },
   // use relative line numbers
   "relative_line_numbers": true,
   "tab_bar": {
@@ -53,9 +49,7 @@
   // Indentation, rainbow indentation
   "indent_guides": {
     "enabled": true,
-    "coloring": "indent_aware",
-    "line_width": 1,
-    "active_line_width": 2
+    "coloring": "indent_aware"
   },
   // NOTE: Zen mode, refer https://github.com/zed-industries/zed/issues/4382 when it's resolved
   "centered_layout": {
@@ -76,12 +70,11 @@
       "provider": "copilot_chat",
       "model": "claude-sonnet-4"
     },
-    "dock": "left",
+    "dock": "left"
     // "default_model": {
     //   "provider": "copilot_chat",
     //   "model": "claude-3-7-sonnet"
     // },
-    "version": "2"
   },
   // Uncomment below to use local AI with Ollama, refer https://zed.dev/docs/language-model-integration?highlight=ollama#using-ollama-on-macos
   // "assistant": {
@@ -111,6 +104,9 @@
   },
   "languages": {
     // Refer https://zed.dev/docs/languages/javascript and https://zed.dev/docs/languages/typescript for more info
+    "Rust": {
+      "show_edit_predictions": true
+    },
     "TypeScript": {
       // Refer https://github.com/jellydn/ts-inlay-hints for how to setup for Neovim and VSCode
       "inlay_hints": {
@@ -194,6 +190,6 @@
   },
   "active_pane_modifiers": {
     "border_size": 1,
-    "inactive_opacity": 0.4
+    "inactive_opacity": 0.8
   }
 }
