@@ -178,9 +178,6 @@
   "notification_panel": {
     "dock": "left"
   },
-  "chat_panel": {
-    "dock": "left"
-  },
   // Minimap settings
   "minimap": {
     "show": "always",
